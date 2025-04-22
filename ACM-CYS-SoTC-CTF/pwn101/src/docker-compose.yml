@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  pwn101:
+    build: .
+    ports:
+      - "1337:1337"
+    container_name: pwn101
+    restart: unless-stopped
+    stdin_open: true
+    tty: true

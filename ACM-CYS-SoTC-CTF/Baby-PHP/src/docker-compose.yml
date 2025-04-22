@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  baby-php:
+    build: .
+    ports:
+      - "8000:80"
+    container_name: baby-php
+    volumes:
+      - ./deploy/index.php:/var/www/html/index.php
+      - ./deploy/flag.txt:/var/www/html/flag.txt
+      - ./deploy/php.ini:/usr/local/etc/php/php.ini
