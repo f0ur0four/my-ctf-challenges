@@ -41,5 +41,6 @@ Since the CTF was about to end, I didn't release a revenge version :(.
 ## Flag
 
 ```
-STC{b45h_gl0b_1nj3c710n_v14_f1l3_upl04d_g035_brrrrrrr}
+STC{3x3cu71ng_c0d3_w17h0u7_4lph4num3r1c_ch4rs_15_7h3_w4yy!!!!}
+
 ```
